@@ -6,6 +6,7 @@ import { ProcessTimeline } from "@/components/ProcessTimeline";
 import { SectionHeading } from "@/components/SectionHeading";
 import { faqs, industries } from "@/data/site";
 import { ButtonLink } from "@/components/ButtonLink";
+import { VideoModal } from "@/components/VideoModal";
 
 const problems = ["WhatsApp reports", "Phone calls", "Excel tracking", "Manual verification", "Delayed reporting"];
 const outcomes = ["Limited visibility", "Poor accountability", "Budget leakage", "Delayed decisions", "Inconsistent execution"];
@@ -38,24 +39,24 @@ export default function Home() {
     <>
       <section className="relative overflow-hidden bg-[#061427] py-16 text-white sm:py-24">
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.07)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.07)_1px,transparent_1px),radial-gradient(circle_at_14%_16%,rgba(249,115,22,0.28),transparent_30%),radial-gradient(circle_at_88%_18%,rgba(255,255,255,0.08),transparent_24%),linear-gradient(135deg,#061427_0%,#0b213b_52%,#071424_100%)] bg-[length:36px_36px,36px_36px,auto,auto,auto]" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_20%,rgba(249,115,22,0.22),transparent_28%),linear-gradient(90deg,rgba(6,20,39,0.28),rgba(6,20,39,0.04))]" />
         <div className="section-shell relative z-10 grid items-center gap-12 lg:grid-cols-[0.92fr_1.08fr]">
           <div className="relative z-10">
             <p className="text-sm font-black uppercase tracking-[0.18em] text-orange-300">
-              Execute. Track. Verify.
+              DeployIQ™
             </p>
             <h1 className="mt-5 text-balance text-5xl font-black tracking-tight text-white sm:text-6xl lg:text-7xl">
-              DeployIQ™ Field Deployment Intelligence Platform
+              Field Deployment Intelligence Platform
             </h1>
             <p className="mt-6 text-xl font-medium leading-9 text-slate-100">
-              DeployIQ™ gives brands, agencies, and field teams complete visibility
-              into retail execution, POSM deployment, merchandising activities,
-              activations, signage installations, and out-of-home advertising campaigns.
+              Execute. Track. Verify.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <ButtonLink href="/contact">Book a Demo</ButtonLink>
-              <ButtonLink href="/features" variant="secondary">
-                Watch Platform Overview
-              </ButtonLink>
+              <ButtonLink href="/contact">Request Demo</ButtonLink>
+              <VideoModal
+                buttonLabel="Watch Platform Overview"
+                videoSrc="/videos/deployiq-hero.mp4"
+              />
             </div>
           </div>
           <DashboardMockup />
