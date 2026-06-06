@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8fafc;
+  --foreground: #071424;
+  --navy: #061427;
+  --navy-soft: #0d2440;
+  --orange: #f97316;
+  --orange-soft: #ffedd5;
+  --line: #dbe3ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.section-shell {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.dark-panel {
+  background:
+    radial-gradient(circle at 15% 12%, rgba(249, 115, 22, 0.2), transparent 28%),
+    linear-gradient(135deg, #061427 0%, #0c203a 52%, #071424 100%);
+}
+
+.grid-paper {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.card-shadow {
+  box-shadow: 0 18px 60px rgba(15, 23, 42, 0.12);
+}
+
+.map-shape {
+  clip-path: polygon(45% 2%, 58% 10%, 65% 22%, 74% 31%, 70% 44%, 81% 54%, 74% 69%, 64% 76%, 55% 92%, 41% 84%, 31% 89%, 20% 76%, 17% 60%, 25% 47%, 19% 34%, 28% 24%, 33% 11%);
+}
