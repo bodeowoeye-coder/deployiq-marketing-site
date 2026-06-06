@@ -12,7 +12,7 @@ const variants = {
   primary:
     "bg-orange-500 text-white shadow-lg shadow-orange-500/25 hover:bg-orange-600",
   secondary:
-    "border border-slate-300 bg-white text-slate-950 hover:border-orange-300 hover:text-orange-600",
+    "border border-slate-300 bg-white !text-slate-950 hover:border-orange-300 hover:!text-orange-600",
   dark: "bg-slate-950 text-white hover:bg-slate-800",
   ghost: "text-slate-700 hover:text-orange-600"
 };

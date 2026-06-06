@@ -36,16 +36,16 @@ const modules = [
 export default function Home() {
   return (
     <>
-      <section className="dark-panel grid-paper overflow-hidden py-16 text-white sm:py-24">
+      <section className="hero-panel overflow-hidden py-16 text-white sm:py-24">
         <div className="section-shell grid items-center gap-12 lg:grid-cols-[0.92fr_1.08fr]">
-          <div>
+          <div className="relative z-10">
             <p className="text-sm font-black uppercase tracking-[0.18em] text-orange-300">
               Execute. Track. Verify.
             </p>
-            <h1 className="mt-5 text-balance text-5xl font-black tracking-tight sm:text-6xl lg:text-7xl">
+            <h1 className="mt-5 text-balance text-5xl font-black tracking-tight text-white sm:text-6xl lg:text-7xl">
               DeployIQ™ Field Deployment Intelligence Platform
             </h1>
-            <p className="mt-6 text-xl leading-9 text-slate-200">
+            <p className="mt-6 text-xl font-medium leading-9 text-slate-100">
               DeployIQ™ gives brands, agencies, and field teams complete visibility
               into retail execution, POSM deployment, merchandising activities,
               activations, signage installations, and out-of-home advertising campaigns.
