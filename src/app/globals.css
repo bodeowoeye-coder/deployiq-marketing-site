@@ -60,6 +60,17 @@ textarea {
   background-size: 36px 36px, 36px 36px, auto, auto, auto;
 }
 
+.dark-panel.grid-paper {
+  background-color: var(--navy);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    radial-gradient(circle at 14% 16%, rgba(249, 115, 22, 0.28), transparent 30%),
+    radial-gradient(circle at 88% 18%, rgba(255, 255, 255, 0.08), transparent 24%),
+    linear-gradient(135deg, #061427 0%, #0b213b 52%, #071424 100%);
+  background-size: 36px 36px, 36px 36px, auto, auto, auto;
+}
+
 .grid-paper {
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),

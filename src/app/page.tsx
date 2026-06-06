@@ -36,8 +36,9 @@ const modules = [
 export default function Home() {
   return (
     <>
-      <section className="hero-panel overflow-hidden py-16 text-white sm:py-24">
-        <div className="section-shell grid items-center gap-12 lg:grid-cols-[0.92fr_1.08fr]">
+      <section className="relative overflow-hidden bg-[#061427] py-16 text-white sm:py-24">
+        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.07)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.07)_1px,transparent_1px),radial-gradient(circle_at_14%_16%,rgba(249,115,22,0.28),transparent_30%),radial-gradient(circle_at_88%_18%,rgba(255,255,255,0.08),transparent_24%),linear-gradient(135deg,#061427_0%,#0b213b_52%,#071424_100%)] bg-[length:36px_36px,36px_36px,auto,auto,auto]" />
+        <div className="section-shell relative z-10 grid items-center gap-12 lg:grid-cols-[0.92fr_1.08fr]">
           <div className="relative z-10">
             <p className="text-sm font-black uppercase tracking-[0.18em] text-orange-300">
               Execute. Track. Verify.
