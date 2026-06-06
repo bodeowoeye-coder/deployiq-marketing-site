@@ -35,7 +35,8 @@ export default function ContactPage() {
                 ["Company", "Impact Visibility Ltd"],
                 ["Product", "DeployIQ™"],
                 ["Email", "hello@deployiq.ng"],
-                ["Phone", "+234 000 000 0000"],
+                ["Office Line", "+234 816 163 0635"],
+                ["Mobile Line", "+234 806 548 7889"],
                 ["Location", "Lagos, Nigeria"]
               ].map(([label, value]) => (
                 <div key={label} className="rounded-md bg-slate-50 p-4">

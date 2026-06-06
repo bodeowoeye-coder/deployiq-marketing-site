@@ -13,6 +13,10 @@ export function Footer() {
           <p className="mt-4 max-w-md text-sm leading-6 text-slate-300">
             A Product of Impact Visibility Ltd. Built for verified field deployment,
             campaign oversight, and executive visibility.
+            <br />
+            Office Line: +234 816 163 0635
+            <br />
+            Mobile Line: +234 806 548 7889
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4 text-sm font-semibold text-slate-300 sm:grid-cols-5">

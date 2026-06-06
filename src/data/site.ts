@@ -1,6 +1,7 @@
 export const loginUrl = "https://deployiq-posm-platform.vercel.app/login";
 
 export const navItems = [
+  { label: "Home", href: "/" },
   { label: "Features", href: "/features" },
   { label: "Industries", href: "/industries" },
   { label: "About", href: "/about" },
